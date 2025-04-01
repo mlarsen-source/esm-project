@@ -1,9 +1,8 @@
 {
   "name": "esm-project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "type": "module",
-  "module": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
